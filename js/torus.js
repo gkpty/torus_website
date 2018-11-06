@@ -23,16 +23,19 @@ $(function(){
             contentType: "application/json",
             data: JSON.stringify( {"firstname": $('#firstname').val(), "lastname": $('#lastname').val(), "email": $('#contact_email').val(), "formType": "contact", "message": $('#message').val()} ),
             beforeSend: function(data) {
-                $('#contact-btn').attr('disabled', true);
+                $('#contact-btn').prop('disabled', true);
+                $('#contactus-form :input').prop('disabled', true);
                 $('#contact-status').html('<i class="fa fa-refresh fa-spin"></i> Enviando...').show();
             },
             success: function(data) {
                 console.log(data);
                 $('#contact-status').text('Gracias por contactarnos.').show();
+                $('#contactus-form :input').removeProp('disabled');
                 $('#contact-btn').removeProp('disabled');
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 $('#contact-status').text('Error de envío.').show();
+                $('#contactus-form :input').removeProp('disabled');
                 $('#contact-btn').removeProp('disabled');
             }
         });
@@ -55,10 +58,12 @@ $(function(){
             success: function(data) {
                 console.log(data);
                 $('#register-status').text('Gracias por registrarte.').show();
+                $('#register-form :input').removeProp('disabled');
                 $('#register-btn').removeProp('disabled');
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 $('#register-status').text('Error de envío').show();
+                $('#register-form :input').removeProp('disabled');
                 $('#register-btn').removeProp('disabled');
             }
         });

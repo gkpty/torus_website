@@ -1,8 +1,8 @@
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 817.2 623">
   <style>
     .st0{fill:#faedd6}.st6,.st8{fill:none;stroke:#606060;stroke-width:2;stroke-miterlimit:10}.st8{stroke-width:4}.st9{fill:#606060}.st10{fill:#ffd9ce}.st11{fill:#14076e}.st12{fill:#301ea8}.st15{fill:#2f243a}.st19{fill:#f5dbad}.st20{fill:#1b737c}.st21{fill:#1b7f89}.st23{fill:#171718}.st26{fill:#4534b1}.st62{fill:#4c4c4c}
-    .arm-down{ -webkit-animation: armove 5s; animation: armove 5s; animation-direction: alternate; animation-delay: 3s; animation-iteration-count: 2;}@keyframes armove {from {rotate(10deg); transform-origin: -15% -10%;} to {transform: rotate(0deg); transform-origin: 10% 15%;}}@-webkit-keyframes armove {from {rotate(10deg); transform-origin: -15% -10%;} to {transform: rotate(0deg); transform-origin: 10% 15%;}}
-    .lightup{animation: pulse 5s; -webkit-animation: pulse 5s; animation-direction: alternate; animation-timing-function: ease-out; animation-iteration-count:2;}@keyframes pulse{to {opacity:1;}}@-webkit-keyframes pulse{to {opacity:1;}}
+    .arm-down{ -webkit-animation: armove 5s linear; animation: armove 5s linear; animation-direction: alternate; animation-delay: 3s; animation-iteration-count: 2;}@keyframes armove {from {rotate(10deg); transform-origin: -15% -10%;} to {transform: rotate(0deg); transform-origin: 10% 15%;}}@-webkit-keyframes armove {from {rotate(10deg); transform-origin: -15% -10%;} to {transform: rotate(0deg); transform-origin: 10% 15%;}}
+    .lightup{animation: pulse 5s linear; -webkit-animation: pulse 5s linear; animation-direction: alternate; animation-timing-function: ease-out; animation-iteration-count: 2;}@keyframes pulse{to {opacity:1;}}@-webkit-keyframes pulse{to {opacity:1;}}
     .arm{transform-origin: -15% -10%; transform: rotate(10deg)}
   </style>
   <g id="arm" class="arm arm-down">

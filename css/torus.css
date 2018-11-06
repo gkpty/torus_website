@@ -33,16 +33,13 @@ svg {
 }
 
 .sending-text{
-  font-size: 1.5rem;
-  color: #1C08A0;
+  font-size: 1.2rem;
+  color: #999999;
 }
 
 .modal-title {
   padding-bottom: 4%;
-}
-
-.modal-title h3 {
-
+  font-size: 1.8rem;
 }
 
 .header-p {
@@ -64,6 +61,7 @@ svg {
 }
 
 .mag-move {
+  margin-top: -65%;
   animation: moveleft 7s;
   animation-fill-mode: forwards;
 }
@@ -515,7 +513,11 @@ a svg #arrow_1 {
 }
 
 .text-white {
-	color: #ffffff
+	color: #ffffff;
+}
+
+.text-disabled {
+  color: #999999;
 }
 
 .text-primo {
@@ -677,190 +679,7 @@ a svg #arrow_1 {
 }
 
 
-@media only screen and (min-width: 600px) {
-    .process-text-mobil {
-        font-size: 150%;
-        margin-top: -25%;
-    }
-    .section-title {
-        font-size: 200%;
-    }
-}
 
-@media only screen and (min-width: 800px) {
-  .section-title {
-    font-size: 3em;
-  }
-  .website-img {
-    margin-left: -15%;
-  }
-  .header-p {
-    padding-right: 4%;
-    padding-left: 4%;
-  }
-  .about-body {
-    margin-left: -1rem;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .team-heading {
-    font-size: 1.2rem;
-    padding-top: 10%;
-    margin-bottom: -2%;
-  }
-
-  .typewriter {
-    font-size: 1.2rem;
-    padding: 14%;
-  }
-
-  .head-img-lg {
-    margin-top: -10%;
-    margin-bottom: -20%;
-  }
-  .main-header-title {
-    font-size: 250%;
-    margin-top: -18%;
-  }
-  .header-btn {
-    margin-top: 15%;
-    margin-bottom: 0%;
-  }
-  .header-text {
-    margin-left: -5%;
-    margin-right: -5%;
-  }
-
-  .team-title {
-    padding-top: ;
-  }
-  .equipo-section {
-    margin-top: 16%;
-  }
-  .bg-white {
-    text-align: center;
-    background-image: url("../img/bg_curve.svg");
-    background-size: cover;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-  .usdcurve-up {
-    text-align: center;
-    background-image: url("../img/bg_curve.svg");
-    background-size: cover;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-
-  .usdshort-up {
-    text-align: center;
-    background-image: url("../img/bg_curve.svg");
-    background-size: cover;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-
-  .straight-up {
-    text-align: center;
-    background-image: url("../img/bg_curve.svg");
-    background-size: cover;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-
-  .head-col {
-    padding-top: 30%;
-  }
-
-  .consult-img {
-    margin-top: 1%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .text-address{
-    font-size: 1rem;
-  }
-
-  .typewriter {
-    font-size: .8rem;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 1%;
-  }
-  .team-heading {
-    margin-top: -6%;
-    padding-bottom: 1%;
-  }
-  .main-header-title {
-    font-size: 180%;
-    margin-top: -40%;
-  }
-  .header-btn {
-    margin-top: 6%;
-    margin-bottom: -5%;
-  }
-  .inlin {
-    display: block;
-  }
-  .about-p {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .inlin p{
-  }
-  .p-title {
-    margin-bottom: -1%;
-    font-size: 1.2rem;
-  }
-
-  p {
-    line-height: 1.2rem;
-  }
-  .section-p {
-    padding-bottom: 0%;
-  }
-  .section-body-left {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
-  }
-  .section-body-right {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
-  }
-  .p-text {
-  }
-  .cta-title {
-    font-size: 150%;
-    padding-top: 30%;
-  }
-  .priority-icon {
-    height: 5rem;
-    margin-left: -2rem;
-    padding-bottom: 1rem;
-  }
-  .sm-text{
-    font-size: .7rem;
-  }
-  .section-title {
-
-  }
-  .navbar-brand {
-    padding-left: 0.5rem;
-  }
-  .nav-title {
-    padding-left: 2.2rem;
-  }
-}
 
 
 
@@ -994,8 +813,20 @@ textarea:-ms-input-placeholder { color: #999999; }
 
 /*------------------------------------------------------------------
 [  ]*/
-.contact1-form {
-  width: 390px;
+.contact-form {
+  color: #000000;
+}
+
+.contact-form:disabled {
+  color: #999999;
+}
+
+.contact-form input:disabled {
+  color: #999999;
+}
+
+.contact-form textarea:disabled {
+  color: #999999;
 }
 
 .contact1-form-title {
@@ -1012,6 +843,10 @@ input.input1 {
   padding: 0 30px;
 }
 input.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+input.input1 + .shadow-input2 {
   border-radius: 25px;
 }
 
@@ -1038,7 +873,6 @@ textarea.input1 + .shadow-input1 {
   background: #e6e6e6;
   font-size: 15px;
   line-height: 1.5;
-  color: #666666;
 }
 
 .shadow-input1 {
@@ -1055,7 +889,26 @@ textarea.input1 + .shadow-input1 {
   color: rgba(28, 8, 160, 0.5);
 }
 
+.shadow-input2 {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 92%;
+  margin-left: 4%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(28, 8, 160, 0.5);
+}
+
 .input1:focus + .shadow-input1 {
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+.input1:focus + .shadow-input2 {
   -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
   animation: anim-shadow 0.5s ease-in-out forwards;
 }
@@ -1130,7 +983,17 @@ textarea.input1 + .shadow-input1 {
 }
 
 
+.map {
 
+}
+
+.p-modal {
+  margin-top: -5%;
+}
+
+.p-ana {
+  margin-top: -13%;
+}
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
@@ -1247,5 +1110,237 @@ textarea.input1 + .shadow-input1 {
 .header-img {
   margin: 0;
   min-height: 240vh;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .process-text-mobil {
+        font-size: 150%;
+        margin-top: -25%;
+    }
+    .section-title {
+        font-size: 200%;
+    }
+
+    .shadow-input1 {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .shadow-input2 {
+      width: 82%;
+      margin-left: 9%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+  .section-title {
+    font-size: 3em;
+  }
+  .website-img {
+    margin-left: -15%;
+  }
+  .header-p {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+  .about-body {
+    margin-left: -1rem;
+  }
+  .shadow-input1 {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .shadow-input2 {
+    width: 88%;
+    margin-left: 6%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .team-heading {
+    font-size: 1.2rem;
+    padding-top: 10%;
+    margin-bottom: -2%;
+  }
+
+  .typewriter {
+    font-size: 1.2rem;
+    padding: 14%;
+  }
+
+  .head-img-lg {
+    margin-top: -10%;
+    margin-bottom: -20%;
+  }
+  .main-header-title {
+    font-size: 250%;
+    margin-top: -18%;
+  }
+  .header-btn {
+    margin-top: 15%;
+    margin-bottom: 0%;
+  }
+  .header-text {
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+
+  .team-title {
+    padding-top: ;
+  }
+  .equipo-section {
+    margin-top: 16%;
+  }
+  .bg-white {
+    text-align: center;
+    background-image: url("../img/bg_curve.svg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .usdcurve-up {
+    text-align: center;
+    background-image: url("../img/bg_curve.svg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .usdshort-up {
+    text-align: center;
+    background-image: url("../img/bg_curve.svg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .straight-up {
+    text-align: center;
+    background-image: url("../img/bg_curve.svg");
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .head-col {
+    padding-top: 30%;
+  }
+
+  .consult-img {
+    margin-top: 1%;
+  }
+
+  .p-ana {
+    margin-top: -16%;
+  }
+
+  .dev-p {
+    padding-top: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-address{
+    font-size: 1rem;
+  }
+  .map {
+    padding-top: 10%;
+  }
+  .dev-p {
+    padding-top: 28%;
+  }
+
+  .p-ana {
+    margin-top: -25%;
+  }
+
+  .modal-title {
+    font-size: 1.2rem;
+  }
+
+  .mag-move{
+    margin-top: -78%;
+  }
+
+  .typewriter {
+    font-size: .8rem;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 1%;
+  }
+  .team-heading {
+    margin-top: -6%;
+    padding-bottom: 1%;
+  }
+  .main-header-title {
+    font-size: 180%;
+    margin-top: -40%;
+  }
+  .header-btn {
+    margin-top: 6%;
+    margin-bottom: -5%;
+  }
+  .inlin {
+    display: block;
+  }
+  .about-p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .inlin p{
+  }
+  .p-title {
+    margin-bottom: -1%;
+    font-size: 1.2rem;
+  }
+
+  p {
+    line-height: 1.2rem;
+  }
+  .section-p {
+    padding-bottom: 0%;
+  }
+  .section-body-left {
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+  }
+  .section-body-right {
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+  }
+  .p-text {
+  }
+  .cta-title {
+    font-size: 150%;
+    padding-top: 30%;
+  }
+  .priority-icon {
+    height: 5rem;
+    margin-left: -2rem;
+    padding-bottom: 1rem;
+  }
+  .sm-text{
+    font-size: .7rem;
+  }
+  .section-title {
+
+  }
+  .navbar-brand {
+    padding-left: 0.5rem;
+  }
+  .nav-title {
+    padding-left: 2.2rem;
+  }
+  .p-modal {
+    margin-top: -15%;
+  }
 }
 
