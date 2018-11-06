@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 136.5">
+  <defs>
+    <style>
+      .cls-2{opacity:.75;mix-blend-mode:screen}
+    </style>
+    <linearGradient id="linear-gradient" x1="17.95" y1="112.55" x2="57.09" y2="112.55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bccbc6"/>
+      <stop offset=".51" stop-color="#b3c6c1"/>
+      <stop offset=".99" stop-color="#a5bfb9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="17.59" y1="106.56" x2="57.45" y2="106.56" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="15.69" y1="102.5" x2="59.35" y2="102.5" gradientUnits="userSpaceOnUse">
+      <stop offset=".01" stop-color="#f0f0f1"/>
+      <stop offset=".27" stop-color="#dfe4e3"/>
+      <stop offset=".72" stop-color="#c5d2ce"/>
+      <stop offset="1" stop-color="#bccbc6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="15.69" y1="98.7" x2="59.35" y2="98.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="15.69" y1="95.2" x2="59.35" y2="95.2" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="15.69" y1="91.41" x2="59.35" y2="91.41" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="15.69" y1="87.61" x2="59.35" y2="87.61" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="15.69" y1="83.54" x2="59.35" y2="83.54" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="15.69" y1="80.04" x2="59.35" y2="80.04" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-10" x1="24.04" y1="54.45" x2="37.43" y2="54.45" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="37.43" y1="54.45" x2="50.82" y2="54.45" xlink:href="#linear-gradient"/>
+  </defs>
+  <g style="isolation:isolate">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <path d="M49.63 121.1H25.41a2.26 2.26 0 0 1-2.2-2.3v-4a2.35 2.35 0 0 0-.48-1.43l-4.29-5.62a2.31 2.31 0 0 1 1.71-3.75h34.74a2.31 2.31 0 0 1 1.71 3.73l-4.29 5.62a2.35 2.35 0 0 0-.48 1.43v4a2.26 2.26 0 0 1-2.2 2.32z" fill="url(#linear-gradient)"/>
+        <ellipse cx="37.52" cy="106.56" rx="19.93" ry="6.11" fill="url(#linear-gradient-2)"/>
+        <ellipse cx="37.52" cy="102.5" rx="21.83" ry="6.7" fill="url(#linear-gradient-3)"/>
+        <ellipse cx="37.52" cy="98.7" rx="21.83" ry="6.7" fill="url(#linear-gradient-4)"/>
+        <ellipse cx="37.52" cy="95.2" rx="21.83" ry="6.7" fill="url(#linear-gradient-5)"/>
+        <ellipse cx="37.52" cy="91.41" rx="21.83" ry="6.7" fill="url(#linear-gradient-6)"/>
+        <use class="cls-2" transform="translate(0 65.5)" xlink:href="#image"/>
+        <ellipse cx="37.52" cy="87.61" rx="21.83" ry="6.7" fill="url(#linear-gradient-7)"/>
+        <use class="cls-2" transform="translate(0 61.5)" xlink:href="#image"/>
+        <ellipse cx="37.52" cy="83.54" rx="21.83" ry="6.7" fill="url(#linear-gradient-8)"/>
+        <ellipse cx="37.52" cy="80.04" rx="21.83" ry="6.7" fill="url(#linear-gradient-9)"/>
+        <path stroke="url(#linear-gradient-10)" stroke-width="2" fill="none" stroke-miterlimit="10" d="M24.04 33.78l13.39 41.35"/>
+        <path stroke="url(#linear-gradient-11)" stroke-width="2" fill="none" stroke-miterlimit="10" d="M37.43 75.13l13.39-41.35"/>
+        <path d="M72.37 35.53a35.53 35.53 0 1 0-71.05 0c0 9.89 5.7 17.36 11 24.91A21.19 21.19 0 0 1 15 66c.34 1.25 2.61 13.44 2.61 13.44 0 .28.13.49.25.49l2.58 1.21a18.26 18.26 0 0 0 4.78 1.47 76.68 76.68 0 0 0 24.61 0 18.9 18.9 0 0 0 5.09-1.57l2.37-1.12c.13 0 .24-.23.26-.54 0 0 1.76-12.8 2.15-14.29.19-.75.78-3 .78-3 4.98-8.42 11.89-16 11.89-26.56z" fill="#fff" opacity=".39"/>
+        <circle cx="37.1" cy="37.82" r="23.59" fill="#e9f27e" opacity=".5"/>
+        <path d="M24 33.78l5.88 2.13a22.45 22.45 0 0 0 15.56-.11l5.34-2" stroke-width="4" stroke="#fff" fill="none" stroke-miterlimit="10"/>
+        <path d="M24 34.65l5.88 2.13a22.45 22.45 0 0 0 15.56-.11l5.34-2" stroke="#e59d1f" stroke-width="4" fill="none" stroke-miterlimit="10"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 163.82 206.74">
+  <defs>
+    <style>
+      .cls-7{fill:none;stroke:#1c08a0;stroke-miterlimit:10;stroke-width:5px}
+    </style>
+    <linearGradient id="linear-gradient" x1="-36.05" y1="81.87" x2="83.82" y2="81.87" gradientTransform="matrix(-1 0 0 1 127.77 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bccbc6"/>
+      <stop offset=".28" stop-color="#c5d2ce"/>
+      <stop offset=".73" stop-color="#dfe4e3"/>
+      <stop offset=".99" stop-color="#f0f0f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-35.25" y1="15.54" x2="-3.91" y2="15.54" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-15.05" y1="102.87" x2="104.82" y2="102.87" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-14.25" y1="36.54" x2="17.09" y2="36.54" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="7.9" y1="124.87" x2="127.77" y2="124.87" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="8.7" y1="58.54" x2="40.04" y2="58.54" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path d="M133.19 28.76h28.46c.73 2.22 2.09 4.44 2.1 6.66q.17 61.08 0 122.16c0 2.23-1.16 4.45-1.63 6.11H44V0h87.73c-.05 10.05 1.46 17.75 1.46 28.76z" fill="url(#linear-gradient)"/>
+      <path d="M131.68 0v25.59a5.48 5.48 0 0 0 5.61 5.48c4.41-.1 6.05-.32 25.73-.32C153 21.15 141.67 9.6 131.68 0z" fill="url(#linear-gradient-2)"/>
+      <path d="M112.19 49.76c10.76 0 11.93 0 28.46.05.73 2.22 2.09 4.44 2.1 6.66q.17 61.08 0 122.16c0 2.23-1.16 4.45-1.63 6.11H23V21h87.73c-.05 10.05 1.46 17.75 1.46 28.76z" fill="url(#linear-gradient-3)"/>
+      <path d="M110.68 21v25.59a5.48 5.48 0 0 0 5.61 5.48c4.41-.1 6-.32 25.73-.32C132 42.15 120.67 30.6 110.68 21z" fill="url(#linear-gradient-4)"/>
+      <path d="M89.24 71.76h28.46c.73 2.22 2.09 4.44 2.1 6.66q.17 61.08 0 122.16c0 2.23-1.16 4.45-1.63 6.11H0V43h87.73c0 10.05 1.51 17.75 1.51 28.76z" fill="url(#linear-gradient-5)"/>
+      <path d="M87.73 43v25.59a5.49 5.49 0 0 0 5.61 5.48c4.41-.1 6-.32 25.73-.32-9.99-9.6-21.35-21.15-31.34-30.75z" fill="url(#linear-gradient-6)"/>
+      <path class="cls-7" d="M18.44 94.74h83M18.44 116.24h83M18.44 137.24h83M18.44 158.24h83M18.44 179.24h83"/>
+    </g>
+  </g>
+</svg>

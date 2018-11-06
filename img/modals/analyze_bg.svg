@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1050 549.46">
+  <defs>
+    <style>
+      .cls-2{fill:#058401}.cls-4{fill:#fff}
+    </style>
+    <clipPath id="clip-path">
+      <path d="M849.61 404.63c13 34.72 49.69 63.58 82 64.68 12.79.55 22.84-3.47 29.78-10.41l-.73.73c-7 6.94-17 10.78-29.79 10.41-32.52-1.28-69.24-30.15-82.22-64.68-7.85-21-5.11-39.28 5.48-50.06l.73-.74c-10.55 10.79-13.29 29.06-5.25 50.07z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="904.83" y1="1035.33" x2="894.75" y2="1037.16" gradientTransform="matrix(-1 0 0 1 1764.66 -648)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bccbc6"/>
+      <stop offset=".26" stop-color="#b3c6c1"/>
+      <stop offset=".51" stop-color="#a5bfb9"/>
+      <stop offset=".73" stop-color="#96aea8"/>
+      <stop offset="1" stop-color="#849994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="901.93" y1="970.17" x2="848.94" y2="1092.59" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="792.57" y1="1121.85" x2="809.22" y2="1105.21" gradientTransform="matrix(-1 0 0 1 1764.66 -648)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bccbc6"/>
+      <stop offset=".26" stop-color="#b3c6c1"/>
+      <stop offset=".51" stop-color="#a5bfb9"/>
+      <stop offset="1" stop-color="#849994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="888.42" y1="843.78" x2="850.05" y2="1033.8" gradientTransform="matrix(-1 0 0 1 1764.66 -648)" gradientUnits="userSpaceOnUse">
+      <stop offset=".01" stop-color="#f0f0f1"/>
+      <stop offset=".27" stop-color="#dfe4e3"/>
+      <stop offset=".72" stop-color="#c5d2ce"/>
+      <stop offset="1" stop-color="#bccbc6"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-2" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" y="247.33" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" y="371" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" x="353.75" y="371" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" x="353.75" y="122.33" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" x="711" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" x="711" y="122.33" width="293" height="74" rx="12" ry="12"/>
+      <rect class="cls-2" x="711" y="247.33" width="293" height="74" rx="12" ry="12"/>
+      <rect id="but4" class="cls-2" y="122.33" width="191" height="74" rx="12" ry="12"/>
+      <ellipse class="cls-2" cx="179" cy="159.33" rx="30.36" ry="37"/>
+      <path class="cls-2" d="M179 147.21h114v24.09H179z"/>
+      <rect id="but4-2" data-name="but4" class="cls-2" x="353.75" y="247.33" width="191" height="74" rx="12" ry="12"/>
+      <ellipse class="cls-2" cx="532.75" cy="284.33" rx="30.36" ry="37"/>
+      <path class="cls-2" d="M533 272.37h113.75v23.84H533z"/>
+      <rect id="but4-3" data-name="but4" class="cls-2" x="353.75" width="191" height="74" rx="12" ry="12"/>
+      <ellipse class="cls-2" cx="532.75" cy="37" rx="30.36" ry="37"/>
+      <path class="cls-2" d="M533 25.04h113.75v24.17H533z"/>
+      <rect id="but4-4" data-name="but4" class="cls-2" x="711" y="371" width="191" height="74" rx="12" ry="12"/>
+      <ellipse class="cls-2" cx="890" cy="408" rx="30.36" ry="37"/>
+      <path class="cls-2" d="M890 396.04h114v24.17H890z"/>
+    </g>
+  </g>
+</svg>
