@@ -28,10 +28,6 @@ svg {
   max-width: 100%;
 }
 
-.website-img {
-
-}
-
 .sending-text{
   font-size: 1.2rem;
   color: #999999;
@@ -45,15 +41,6 @@ svg {
 .header-p {
   padding-left: 4%;
   padding-right: 4%;
-}
-
-.automation-p {
-  padding-left: 10%;
-  margin-right: -5%;
-}
-
-.dmspacing {
-  padding-bottom: 5%;
 }
 
 .head-col {
@@ -88,19 +75,11 @@ svg {
   margin-left: -2%;
 }
 
-.p-tit {
-  padding-left: 2rem;
-}
-
 .nav-title {
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 4px;
   font-size: 1.5rem;
   margin-left: -2rem;
-}
-
-.nav-item{
-
 }
 
 .sm-text {
@@ -112,7 +91,6 @@ font-family: 'Roboto', sans-serif;
 .secondary-header-title{
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
-  letter-spacing: ;
 }
 
 .secondary-header-title-sm {
@@ -122,15 +100,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header-text {
-
-}
-
-.header-img {
-  margin-top: -15%; 
-  margin-bottom: -20%; 
-  margin-right: -10px;
-  width: 100%; 
-  height: auto;
 }
 
 .header-row {
@@ -160,11 +129,6 @@ font-family: 'Roboto', sans-serif;
 
 .list-title {
   font-size: 1.5rem;
-}
-
-.big-words {
-  font-size: 1.5rem;
-  line-height: 70%;
 }
 
 .list-line {
@@ -209,24 +173,6 @@ font-family: 'Roboto', sans-serif;
   padding-left: 4%;
 }
 
-.register-title {
-
-}
-
-.icon-titles {
-
-}
-
-.p-no {
-  padding-left: -2rem;
-}
-
-.shadows{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-
-.web-p {
-  padding-bottom: 4%;
-}
-
 .section-p {
   margin-bottom: 2%;
   padding-bottom: 2%;
@@ -237,17 +183,6 @@ font-family: 'Roboto', sans-serif;
   padding-bottom: 2%;
 }
 
-.p-marg {
-  margin-left: 3%;
-}
-
-.section-title2 {
-  font-family:; 
-  font-size: 3.5rem;
-  padding-top: 10%;
-  padding-bottom: 5%;
-}
-
 .inlin{
   display: inline;
 }
@@ -255,10 +190,6 @@ font-family: 'Roboto', sans-serif;
 .p-spacing {
   padding-bottom: 5%;
 }
-
-/* Automatizacion de procesos */
-
-/* NUESTROS PROCESOS */
 
 .process-img {
   margin-top: -150%;
@@ -272,6 +203,7 @@ font-family: 'Roboto', sans-serif;
   margin-top: -15%;
   color: #1c08a0;
 }
+
 .mag-mobil {
   margin-top: -110%;
   margin-left: 10%;
@@ -332,14 +264,6 @@ a svg #arrow_1 {
   -webkit-transition-timing-function: ease-in-out;
 }
 
-
-/* PAGINAS WEB */
-
-.section-two {
-  margin-top: -10%;
-}
-
-/* COLORS */
 .purp-gradient {
   background-image: linear-gradient(90deg, #9933cc, #5308ab, #1c08a0, #1c08a0)
 }
@@ -358,7 +282,8 @@ a svg #arrow_1 {
 }
 
 .dropdown-menu {
-  background-color: rgb(28, 8, 160, 0.8);
+  background-color: rgb(28, 8, 160);
+  opacity: .8;
 }
 
 .dropdown-item {
@@ -413,6 +338,7 @@ a svg #arrow_1 {
   background-repeat: no-repeat;
   padding-bottom: 5%;
   padding-top: 5%;
+  height: 100%;
 }
 
 .curve-up {
@@ -457,7 +383,10 @@ a svg #arrow_1 {
 }
 
 .bg-white {
+}
 
+.bg-whit {
+  background-color: #ffffff;
 }
 
 .about-title {
@@ -658,11 +587,6 @@ a svg #arrow_1 {
 
 .automation-section{
   margin-left: 1%;
-
-}
-
-.automation-p {
-  margin-left: -3%;
 }
 
 .equipo-section {
@@ -1160,9 +1084,6 @@ textarea.input1 + .shadow-input1 {
   .section-title {
     font-size: 3em;
   }
-  .website-img {
-    margin-left: -15%;
-  }
   .header-p {
     padding-right: 4%;
     padding-left: 4%;
@@ -1368,7 +1289,7 @@ textarea.input1 + .shadow-input1 {
   .p-text {
   }
   .cta-title {
-    font-size: 150%;
+    font-size: 1.5rem;
     padding-top: 30%;
   }
   .priority-icon {

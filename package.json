@@ -1,28 +1,36 @@
 {
-  "name": "torus-website",
-  "version": "1.0.0",
-  "description": "website for torus digital consulting and software development firm",
+  "name": "torus_website",
+  "version": "1.1.0",
+  "description": "Wbsite for Torus Digital consulting and software development firm",
   "main": "es.html",
+  "dependencies": {
+    "cssnano": "^4.1.7",
+    "csso": "^3.5.1",
+    "uglify-js": "^3.4.9"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkpty/torus_website.git"
+  },
   "keywords": [
     "websites",
-    "apps",
-    "integrations",
-    "digital",
-    "marketing",
+    "design",
     "consulting",
-    "software",
-    "development"
+    "apps",
+    "bootstrap4",
+    "jQuery",
+    "javascript",
+    "serverless",
+    "dynamoDB"
   ],
-  "author": "Torus Digital",
+  "author": "Torus Digital <contacto@torus-digital.com> (https://torus-digital.com/)",
   "license": "MIT",
-  "devDependencies": {
-    "cssnano": "^4.1.7"
+  "bugs": {
+    "url": "https://github.com/gkpty/torus_website/issues"
   },
-  "dependencies": {
-    "csso": "^3.5.1",
-    "uglify-js": "^3.4.9"
-  }
+  "homepage": "https://github.com/gkpty/torus_website#readme"
 }
