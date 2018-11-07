@@ -4,11 +4,12 @@
   "description": "Wbsite for Torus Digital consulting and software development firm",
   "main": "es.html",
   "dependencies": {
-    "cssnano": "^4.1.7",
     "csso": "^3.5.1",
     "uglify-js": "^3.4.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
