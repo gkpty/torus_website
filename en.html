@@ -2,13 +2,22 @@
 <html lang="en">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120987591-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-120987591-1');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Torus is a consulting, software development and design firm located in Panama.">
+    <meta name="author" content="Torus Digital">
 
-    <title>Torus - Consultoria Digital</title>
+    <title>Torus - Digital Solutions</title>
     <!-- favicon -->
     <link rel="icon" href="img/torus_favicon.png">
 
@@ -789,38 +798,34 @@
    		</div>
    </section>
 
-  <!-- Call to Action -->
+    <!-- Call to Action -->
     <section id="register" class="action-up">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 mx-auto">
             <h3 class="cta-title text-white">Want to learn more about digitalization?</h3>
-          </div>
-          
+          </div>  
           <div class="col-md-8 mx-auto">
-            <div class="section-content col-md-8">
-              <h3 id="register-status" class="sending-text text-center" style="display:none;">Dummy text</h3>
-            </div>
-            <div class="container">
-              <form id="register-form" action="#">
-                <div class="row">   
-                  <div class="form-group wrap-input1 validate-input col-md-8" data-validate = "ingrese un correo valido">
-                    <input type="email" class="form-control input1" autocomplete="email" id="register_email" name="email" placeholder="Correo Electronico" required>
-                    <span class="shadow-input1"></span>
-                  </div>
-                  <div class="col-md-4">
-                    <button class="contact1-form-btn btn submit" type="submit" id="register-btn">
-                      <span>
-                        Enviar
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                  </div>    
+            <form id="register-form" class="contact-form" action="#">
+              <div class="row">   
+                <div class="form-group wrap-input1 validate-input col-md-8" data-validate = "ingrese un correo valido">
+                  <input type="email" class="input1" autocomplete="email" id="register_email" name="email" placeholder="Email" required>
+                  <span class="shadow-input1"></span>
                 </div>
-              </form>
-            </div>
+                <div class="col-md-8 col-sm-6 order-md-12 order-sm-0">
+                  <h3 id="register-status" class="sending-text text-left text-lg-center" style="display:none;">Thank You for Registering</h3>
+                </div>  
+                <div class="col-md-4 col-sm-6 order-md-0 order-sm-12">
+                  <button class="contact1-form-btn btn submit" type="submit" id="register-btn">
+                    <span>
+                      Send
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>                 
+              </div>
+            </form>
           </div> 
-
           <div class="col-md-4 mx-auto">
             <img src="img/sign_up.svg" alt="torus screensaver vector graphic animation">
           </div>
@@ -1246,10 +1251,52 @@
           </div>
         </div>
         <div class="row">
+          <!-- Contact us Form -->
+          <div class="col-md-6 order-sm-0 order-md-12">
+            <form id="contactus-form" class="contact-form" action="#">  
+              <div class="row">
+                <div class="form-group col-md-6 wrap-input1 validate-input" data-validate = "Enter your first name">
+                  <input type="text" class="input1" autocomplete="given-name" id="firstname" name="firstname" placeholder="First Name" required>
+                  <span class="shadow-input2"</span>
+                </div>
+                <div class="form-group col-md-6 wrap-input1 validate-input" data-validate = "Enter your last name">
+                  <input type="text" class="input1" autocomplete="family-name" id="lastname" name="lastname" placeholder="Last Name" required>
+                  <span class="shadow-input2"</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-12 wrap-input1 validate-input" data-validate = "Enter a valid email">
+                  <input type="email" class="input1" autocomplete="email" id="contact_email" name="email" placeholder="Email" required>
+                  <span class="shadow-input1"></span>
+                </div>  
+              </div>
+              <div class="row">
+                <div class="form-group col-md-12 wrap-input1 validate-input" data-validate = "Enter a message">
+                  <textarea class="input1" id="message" name="message" placeholder="Message" required></textarea>
+                  <span class="shadow-input1"></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 text-left">
+                  <h3 id="contact-status" class="sending-text" style="display:none;">Gracias por Contactarnos</h3>
+                </div>
+              </div>  
+              <div class="row">
+                <div class="col-md-12">
+                  <button class="contact1-form-btn btn submit" type="submit" id="contact-btn">
+                    <span>
+                      Send
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div> 
+              </div>
+            </form>
+          </div>
           <!-- Map -->
-          <div class="col-md-6 map">
-            <div class="row">
-              <div id="map" class="col-sm-12 map"></div>
+          <div class="col-md-6 order-md-0 order-sm-12">
+            <div class="row map">
+              <div id="map" class="col-sm-12"></div>
             </div>
             <div class="row">
               <div class="col-sm-6">
@@ -1276,53 +1323,7 @@
                 </div>
               </div>
             </div>
-          </div>              
-          <!-- Contact us Form -->
-          <div class="col-md-6">
-            <div class="container">
-              <div class="row section-content">
-                <div class="col-sm-12 text-center text-md-left">
-                  <h3 id="contact-status" class="sending-text" style="display:none;">Dummy Text</h3>
-                </div>
-              </div>
-              <div class="contact-section">
-                <form id="contactus-form" action="#">  
-                  <div class="row">
-                    <div class="form-group col-md-6 wrap-input1 validate-input" data-validate = "Ingrese su nombre">
-                      <input type="text" class="input1" autocomplete="given-name" id="firstname" name="firstname" placeholder="Nombre" required>
-                      <span class="shadow-input1" style="width: 86%; margin-left: 7%;"></span>
-                    </div>
-                    <div class="form-group col-md-6 wrap-input1 validate-input" data-validate = "Ingrese su apellido">
-                      <input type="text" class="input1" autocomplete="family-name" id="lastname" name="lastname" placeholder="Apellido" required>
-                      <span class="shadow-input1" style="width: 86%; margin-left: 7%;"></span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group col-md-12 wrap-input1 validate-input" data-validate = "ingrese un correo valido">
-                      <input type="email" class="input1" autocomplete="email" id="contact_email" name="email" placeholder="Correo Electronico" required>
-                      <span class="shadow-input1"></span>
-                    </div>  
-                  </div>
-                  <div class="row">
-                    <div class="form-group col-md-12 wrap-input1 validate-input" data-validate = "Ingrese su mensaje">
-                      <textarea class="input1" id="message" name="message" placeholder="Mensaje" required></textarea>
-                      <span class="shadow-input1"></span>
-                    </div>
-                  </div>  
-                  <div class="row">
-                    <div class="col-md-12">
-                      <button class="contact1-form-btn btn submit" type="submit" id="contact-btn">
-                        <span>
-                          Enviar
-                          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </span>
-                      </button>
-                    </div> 
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+          </div>                  
         </div>
       </div>
     </section>
@@ -1389,13 +1390,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h3 class="mb-0 modal-title">We find the bottlenecks</h3>
+              <h3 class="mb-0 modal-title md-title">We Find the Bottlenecks</h3>
               <img id="mag_bg" class="img-fluid mb-5" src="img/modals/analyze_bg.svg" alt="wine bottles vecor graphic">
-              <img id="mag_glass" class="img-fluid mb-5 mag-move" src="img/modals/mag_glass.svg" style="margin-top: -65%;" alt="">
-              <p class="text-left modal-p">We compile data from your industry, competitors, users and business processes in order to recommend the best solutions for your particular use case. If you don't have data, we will help you implement the required components to start generating it. We use powerful tools like probabilistic models, simulations, and we generate clear indicators that will give you a precise picture of your organization in terms of what is working and what needs to be improved.</p>
+              <img id="mag_glass" class="img-fluid mb-5 mag-move" src="img/modals/mag_glass.svg" alt="">
+              <p class="text-left p-ana">We compile data from your industry, competitors, users and business processes in order to recommend the best solutions for your particular use case. If you don't have data, we will help you implement the required components to start generating it. We use powerful tools like probabilistic models, simulations, and we generate clear indicators that will give you a precise picture of your organization in terms of what is working and what needs to be improved.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Cerrar
+                Close
               </a>
             </div>
           </div>
@@ -1411,10 +1412,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h3 class="mb-0 modal-title">We think outside the box</h3>
+              <h3 class="mb-0 modal-title md-title">We Think Outside the Box</h3>
               <img class="img-fluid mb-5" src="img/modals/design.svg" style="width: 80%;" alt="design team vector graphic svg animation">
-              <p class="text-left" style="margin-bottom: 5%;">We have a comprehensive creative processes where we use concepts of design thinking together with the latest trends in graphic design and our own touch of originality in an effective way that will appeal to your audience.</p>
-              <ol class="text-left list-title">
+              <p class="text-left p-modal" style="margin-bottom: 5%;">We have a comprehensive creative processes where we use concepts of design thinking together with the latest trends in graphic design and our own touch of originality in an effective way that will appeal to your audience.</p>
+              <ol class="text-left modal-list-title">
                 <li class="list-line">Empathize<span class="list-text"> with the end user</span></li>
                 <li class="list-line">Define<span class="list-text"> The user’s needs or problems and the organization’s constraints.</span></li>
                 <li class="list-line">Ideate<span class="list-text"> creative solutions that empower your users.</span></li>
@@ -1422,7 +1423,7 @@
               </ol>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Cerrar</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -1437,21 +1438,20 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h3 class="mb-0 modal-title">We make ideal software for you</h3>
+              <h3 class="mb-0 modal-title md-title">We Make Ideal Software for You</h3>
               <img class="img-fluid mb-5" src="img/modals/develop.svg" alt="computer screen vector graphic">
-              <div id="typedtext" class="typewriter text-left typewindow"></div>
+              <div id="typedtext" class="typewriter text-left" style="margin-top: -95%;z-index: 1;max-height: 10rem; min-height: 10rem;"></div>
               <div class="text-left dev-p">
                 <p>We use the agile methodology to separate the project into a series of independent functional modules which customers can test, and provide feedback. This way we can speed up the time to market and deploy high quality solutions, that satisfy our customer’s wishes, without any delays.</p>
               </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Cerrar</a>
+                Close</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Modal 4 implement -->
     <div class="portfolio-modal mfp-hide" id="implement-modal">
       <div class="portfolio-modal-dialog bg-white">
@@ -1461,8 +1461,8 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h3 class="mb-0 modal-title">We eliminate the bottlenecks</h3>
-              <div id="implement-svg">
+              <h3 class="mb-0 modal-title md-title">We Eliminate the Bottlenecks</h3>
+              <div id="implement-svg" class="img-fluid mb-5" style="padding-bottom: 5%;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1004 445">
                   <defs>
                     <style>.cls-1{fill:#058401;}</style>
@@ -1514,11 +1514,11 @@
                   </g>
                 </svg>
               </div>
-              <p class="about-p p-space text-left" style="margin-top: 5%;">Nos aseguramos que los productos que entregamos están funcionando al 100%. Tenemos un equipo interno de control de calidad que prueba cada funcionalidad. Adicionalmente le asignamos un tiempo de prueba a los cliente para asegurarnos que queden satisfechos.</p>
-              <p class="about-p p-space text-left">Entrenamos al personal del cliente para que conozcan la nueva herramienta y la aprendan a operar/administrar de la forma más efectiva. También proveemos documentación detallada, bien organizada y manuales amigables para que los usuarios, los administradores y los futuros desarrolladores nunca están perdidos durante la administración o al momento de una modificación.</p>
+              <p class="text-left p-modal">We make sure the software we deliver is always working perfectly. We have an internal team of project managers with rigorous quality control standards that make sure everything is working in a module before it is handed off to the customer. We also assign testing time to the customer to make sure they are satisfied with the product.</p>
+              <p class="text-left">We train your team so they can get to know the new software and they learn to operate/administrate it in the most effective way. We also provide detailed, well organized documentation and user friendly manuals so that users, admins, and future developers are never lost during administration or in an update.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Cerrar</a>
+                Close</a>
             </div>
           </div>
         </div>
@@ -1533,13 +1533,14 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h3 class="mb-0 modal-title">We never forget our customers</h3>
+              <h3 class="mb-0 modal-title">We Never Forget Our Customers</h3>
               <img class="img-fluid mb-5" src="img/modals/maintain.svg" alt="Consultants designers and developers succesful implementation vector graphic animation">
-              <p class="text-left p-space about-p">Ofrecemos servicios de soporte/mantenimiento donde monitoreamos el rendimiento de sus sistemas periódicamente y sugerimos/hacemos los cambios necesarios para que tu proyecto siempre esté funcionando a su máxima eficiencia.</p>
-              <p class="text-left p-space about-p">Tomamos todas las precauciones para que nuestras implementaciones nunca esten caidas y siempre anden al 100% pero en tal caso llegue a suceder algo ofrecemos soporte prácticamente 24/7.</p>
+              <p class="text-left p-modal">We offer support and maintenance services were we monitor the performance of your systems periodically and we suggest and execute the required changes so that your project is always functioning correctly, at good speeds, and without inconsistencies.</p>
+              <p class="text-left">TWe take all the required precautions so that our implementations are always working perfectly and our customers never experience down time; but in any case, we offer support almost 24/7.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Cerrar</a>
+                Close
+              </a>
             </div>
           </div>
         </div>

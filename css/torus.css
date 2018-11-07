@@ -171,6 +171,12 @@ font-family: 'Roboto', sans-serif;
   padding-bottom: 1.5rem;
 }
 
+.modal-list-title {
+  font-size: 1.4rem;
+  font-style: bold;
+  padding-bottom: 1.5rem;
+}
+
 .list-text {
   font-size: 1rem;
 }
@@ -195,11 +201,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 .auto-p1{
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .auto-p2{
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .register-title {
@@ -1244,6 +1250,10 @@ textarea.input1 + .shadow-input1 {
 
   .dev-p {
     padding-top: 60%;
+  }
+
+  .cta-title {
+    padding-top: 15%;
   }
 }
 
